@@ -25,7 +25,7 @@ public class Base {
 	public WebDriver intializeDriver () throws IOException {
 		// to read the properties of data.pro perties class 
 		//create object of filestreaminput and pass the path of properties file 
-		FileInputStream fs =new FileInputStream("C:\\Users\\AAkash Satpute\\eclipse-workspace\\Rediffmail2\\src\\main\\java\\resources\\data.properties");
+		FileInputStream fs =new FileInputStream("/Users/aakashsatpute/Downloads/Rediffmail/src/main/java/resources/data.properties");
 	//  create object of properties class to use load method to load the properties file 
 			 prop =new Properties();
 			prop.load(fs);
@@ -34,7 +34,7 @@ public class Base {
       String browsername=prop.getProperty("browser");
            url =prop.getProperty("url");
 			if (browsername.equals("chrome")) {
-		System.setProperty("webdriver.chrome.driver", "E:\\JAVA TOOLS\\new102\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/Users/aakashsatpute/Downloads/Rediffmail/src/main/resources/chromedriver");
                   driver=new ChromeDriver();
 			}
 			 else if (browsername.equals("firefox")) {
