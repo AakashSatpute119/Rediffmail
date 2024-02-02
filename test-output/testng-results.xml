@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-23T11:25:00Z" name="Suite" finished-at="2022-05-23T11:26:28Z" duration-ms="87964">
+    <groups>
+    </groups>
+    <test started-at="2022-05-23T11:25:00Z" name="Test" finished-at="2022-05-23T11:26:28Z" duration-ms="87964">
+      <class name="Loginpagetest.LandingPageTest">
+        <test-method is-config="true" signature="invokebrower()[pri:0, instance:Loginpagetest.LandingPageTest@baf1bb3]" started-at="2022-05-23T11:25:00Z" name="invokebrower" finished-at="2022-05-23T11:25:46Z" duration-ms="45683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokebrower -->
+        <test-method is-config="true" signature="revokebrowser()[pri:0, instance:Loginpagetest.LoginpageTest@67ec8477]" started-at="2022-05-23T11:25:46Z" name="revokebrowser" finished-at="2022-05-23T11:26:19Z" duration-ms="33444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- revokebrowser -->
+        <test-method signature="ValidatetheHomapagetittle()[pri:0, instance:Loginpagetest.LandingPageTest@baf1bb3]" started-at="2022-05-23T11:26:19Z" name="ValidatetheHomapagetittle" finished-at="2022-05-23T11:26:19Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatetheHomapagetittle -->
+        <test-method signature="Validationhomepagelogo()[pri:0, instance:Loginpagetest.LandingPageTest@baf1bb3]" started-at="2022-05-23T11:26:19Z" name="Validationhomepagelogo" finished-at="2022-05-23T11:26:20Z" duration-ms="499" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at Loginpagetest.LandingPageTest.Validationhomepagelogo(LandingPageTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validationhomepagelogo -->
+        <test-method signature="validatethePresenceofCreateAccount()[pri:0, instance:Loginpagetest.LandingPageTest@baf1bb3]" started-at="2022-05-23T11:26:20Z" name="validatethePresenceofCreateAccount" finished-at="2022-05-23T11:26:21Z" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatethePresenceofCreateAccount -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:Loginpagetest.LandingPageTest@baf1bb3]" started-at="2022-05-23T11:26:23Z" name="Close" finished-at="2022-05-23T11:26:26Z" duration-ms="2686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Loginpagetest.LoginpageTest@67ec8477]" started-at="2022-05-23T11:26:26Z" name="close" finished-at="2022-05-23T11:26:28Z" duration-ms="2203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Loginpagetest.LandingPageTest -->
+      <class name="Loginpagetest.LoginpageTest">
+        <test-method signature="navigatetoLoginpage()[pri:0, instance:Loginpagetest.LoginpageTest@67ec8477]" started-at="2022-05-23T11:26:21Z" name="navigatetoLoginpage" finished-at="2022-05-23T11:26:22Z" duration-ms="1497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetoLoginpage -->
+        <test-method signature="Loginpageworking(java.lang.String, java.lang.String)[pri:0, instance:Loginpagetest.LoginpageTest@67ec8477]" started-at="2022-05-23T11:26:22Z" name="Loginpageworking" data-provider="getData" finished-at="2022-05-23T11:26:23Z" depends-on-methods="Loginpagetest.LoginpageTest.navigatetoLoginpage" duration-ms="1070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Akash@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginpageworking -->
+      </class> <!-- Loginpagetest.LoginpageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 76.456 s <<< FAILURE! - in TestSuite
+Validationhomepagelogo(Loginpagetest.LandingPageTest)  Time elapsed: 2.118 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Loginpagetest.LandingPageTest.Validationhomepagelogo(LandingPageTest.java:38)
+

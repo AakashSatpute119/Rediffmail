@@ -1,0 +1,4 @@
+resources\Base.class
+pageObjectRepo\Landingpage.class
+pageObjectRepo\Loginpage.class
+resources\ExtentReportsclass.class
