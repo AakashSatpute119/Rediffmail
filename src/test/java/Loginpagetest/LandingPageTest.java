@@ -24,6 +24,7 @@ public class LandingPageTest extends Base{
 	@BeforeTest 
 	public void invokebrower () throws IOException {
 		driver=intializeDriver();
+		//driver.navigate().to(url);
 		driver.get(url);
 	}
 	@Test
